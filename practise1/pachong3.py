@@ -11,3 +11,4 @@ soup = bs4.BeautifulSoup(html_doc,'lxml')
 c=soup.find_all("p")
 for i in c:
     print(i.text)
+print("test")
